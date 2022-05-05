@@ -38,15 +38,23 @@ a{
     text-decoration: none;
     color: black;
 }
-.titulo{
+
+
+
+
+
+.principal__titulo{
     font-size: 100px;
 }
 .principal h2{
     font-size: 36px;
 }
-.texto-principal{
+.principal__texto{
     color: whitesmoke;
     font-size: 24px;
+}
+.envio{
+    margin-bottom: 80px;
 }
 /*Imagen de fondo*/
 .contenido{

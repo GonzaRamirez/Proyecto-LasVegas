@@ -1,0 +1,18 @@
+.contacto{    
+        background-color: $background-c;
+    &__formulario{
+    font-size: $fuente-principal;}
+
+    &__slogan{
+        font-size: $fuente-subtitulo;
+    }
+    &__segundo__slogan{
+        font-size: $fuente-principal;
+    }
+    &__direccion__item{
+        color: $color-pricipal;
+    }
+}    
+.contenido{
+    background-color: $background-c;
+}
