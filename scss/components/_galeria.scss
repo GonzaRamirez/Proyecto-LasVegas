@@ -1,0 +1,14 @@
+/* GALERIA */
+.imagen__img{
+    height: 450px;
+    border-radius: 15px;
+    object-fit: cover;
+    width: $tamanio-total;
+}
+.galeria{
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.galeria img:hover{
+    border: 5px solid #f7f7f7;
+}

@@ -54,7 +54,7 @@ a{
     font-size: 24px;
 }
 .envio{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 /*Imagen de fondo*/
 .contenido{
@@ -65,7 +65,7 @@ a{
     background-repeat:repeat;
 }
 .contenido-grid{
-    background-color: #D6D2C4;
+    background-color: #d6d2c4;
 }
 /* Contenido */
 .texto{
@@ -147,6 +147,8 @@ a{
     }
     .envio img{
         padding-bottom: 80px;
+        width: 40px;
+        height: 40px;
     }
     .productos__titulo h2{
         font-size: 42px;
@@ -154,8 +156,9 @@ a{
     .productos__lista{
         font-size: 18px;
     }
-    .principal{
+    .principal__texto{
         color: whitesmoke;
+        font-size: 16px;
     }
     .principal h2{
         font-size: 18px;

@@ -1,12 +1,33 @@
 $color-pricipal: #000;
-
+$background-contenido: #d6d2c4;
 $tamanio-total: 100%;
 
-$fuente-principal: 20px;
-$fuente-titulo: 100px;
-$fuente-subtitulo: 42px;
-$titulo-responsive: 42px;
+$tamanio-tipografia:(
+    principal: 20px,
+    titulo: 100px,
+    titulo2: 60px,
+    subtitulo-index: 36px,
+    subtitulo: 42px,
+    slogan: 24px,
+    titulo-responsive: 42px,
+    fuente-responsive: 16px,
+    );
 
-$transparencia: 0.85;
+/* EXTEND */
+%grid-extend{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
 
-$background-c:#D6D2C4;
+%background-extend{
+    background-color: #bdb7b1;
+    background-color: #a79c92;
+}
+
+@mixin footer-list ($display, $align) {
+    display: $display;
+    align-items: $align;    
+}
+
+

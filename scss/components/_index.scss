@@ -1,0 +1,47 @@
+
+/* INDEX */
+.principal{
+    &__titulo{
+        font-size:map-get($tamanio-tipografia, titulo );
+    }
+    &__subitulo h2{
+        font-size:map-get($tamanio-tipografia, subtitulo-index);
+    }
+    &__texto{
+        color: whitesmoke;
+        font-size:map-get($tamanio-tipografia, slogan);
+    }
+    &__envio{
+        margin-bottom: 100px;
+    }
+}
+
+.contenido-back{
+    background-image: url(/imagenes/fondo-pagina.jpg);
+    width: $tamanio-total;
+    background-size: cover;
+    background-repeat:repeat;
+}
+.contenido{
+    background-color: $background-contenido;
+}
+@media only screen and (max-width: 768px){   
+    .logo img{
+        width: 100%;
+    }
+    .principal__subtitulo{
+       font-size:  24px;
+    }
+   .principal__texto{
+        font-size: 20px;
+    }
+    .principal__titulo{
+        font-size: 60px;
+        padding-top: 0px;
+    }
+    .envio img{
+        padding-bottom: 80px;
+        width: 40px;
+        height: 40px;
+    }
+}    

@@ -1,0 +1,30 @@
+.texto{
+    font-size: map-get($tamanio-tipografia, principal);
+    text-justify: auto;
+    color: #000;
+}
+.texto h1{
+    font-size: map-get($tamanio-tipografia, titulo);
+}
+/* QUIENES SOMOS */
+.contacto__slogan{
+    font-size: map-get($tamanio-tipografia, slogan);
+}
+.contacto__segundo__slogan{
+    font-size: map-get($tamanio-tipografia, principal);
+}
+@media only screen and (max-width: 768px){ 
+    .texto h1{
+        font-size: 60px;
+    }
+    .texto p{
+        font-size: 20px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+    .segundo__slogan{
+        font-size: 20px;
+        padding-bottom: 80px;
+    }
+}
