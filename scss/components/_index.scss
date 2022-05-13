@@ -2,7 +2,7 @@
 /* INDEX */
 .principal{
     &__titulo{
-        font-size:map-get($tamanio-tipografia, titulo );
+        font-size:map-get($tamanio-tipografia, titulo);
     }
     &__subitulo h2{
         font-size:map-get($tamanio-tipografia, subtitulo-index);
@@ -17,7 +17,7 @@
 }
 
 .contenido-back{
-    background-image: url(/imagenes/fondo-pagina.jpg);
+    background-image:url(/imagenes/fondo-pagina.jpg);
     width: $tamanio-total;
     background-size: cover;
     background-repeat:repeat;
@@ -30,13 +30,13 @@
         width: 100%;
     }
     .principal__subtitulo{
-       font-size:  24px;
+       font-size:  map-get($tamanio-tipografia , slogan);
     }
    .principal__texto{
-        font-size: 20px;
+        font-size: map-get($tamanio-tipografia , principal);
     }
     .principal__titulo{
-        font-size: 60px;
+        font-size: map-get($tamanio-tipografia , titulo2);
         padding-top: 0px;
     }
     .envio img{

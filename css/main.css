@@ -118,13 +118,14 @@
 
 .productos__lista {
   font-size: 20px;
-  margin-top: 20px; }
+  margin-top: 0px; }
 
 .slogan {
   font-size: 24px; }
 
 .segundo__slogan {
-  font-size: 24px; }
+  font-size: 24px;
+  padding-bottom: 80px; }
 
 .direccion__item:hover {
   transform: scale(1.2); }
