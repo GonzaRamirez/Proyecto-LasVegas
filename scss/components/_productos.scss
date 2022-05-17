@@ -1,6 +1,7 @@
 /* PRODUCTOS */
 .productos__titulo h2{
     font-size: map-get($tamanio-tipografia, titulo2);
+    padding-bottom: 0%;
 }
 .productos__lista{
     font-size: map-get($tamanio-tipografia, principal);
@@ -11,9 +12,22 @@
 }
 .segundo__slogan{
     font-size: map-get($tamanio-tipografia, slogan);
-    padding-bottom: 80px;
+    overflow: hidden;
 }
 .direccion__item:hover{
     transform: scale(1.2);
 }
 
+@media only screen and (max-width: 768px){ 
+    .productos__titulo h2{
+        font-size: map-get($tamanio-tipografia, subtitulo );
+    }
+    .segundo__slogan{
+        font-size: map-get($tamanio-tipografia , fuente-responsive);
+    }
+    .slogan{
+        font-size: map-get($tamanio-tipografia , fuente-responsive);
+    }
+    .productos__lista{
+        font-size: map-get($tamanio-tipografia, fuente-responsive);}
+}

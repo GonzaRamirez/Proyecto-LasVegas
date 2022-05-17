@@ -12,6 +12,7 @@
     &__direccion__item{
         color: $color-pricipal;
     }
+    
 }    
 
 @media only screen and (max-width: 768px){ 
@@ -20,6 +21,15 @@
         font-size: map-get($tamanio-tipografia , fuente-responsive);
     }
     .contacto__slogan{
-        font-size: map-get($tamanio-tipografia , principal);
+        font-size: map-get($tamanio-tipografia , fuente-responsive);
+        margin-bottom: 0px;
     }
+    .contacto__slogan h2{
+        font-size: map-get($tamanio-tipografia , fuente-responsive);
+    }
+    .formulario_form{
+        font-size: map-get($tamanio-tipografia, fuente-responsive);
+        top: 0px;
+    }
+    
 }
