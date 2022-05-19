@@ -49,7 +49,7 @@
   margin-bottom: 100px; }
 
 .contenido-back {
-  background-image: url(../../imagenes/fondo-pagina.jpg);
+  background-image: url(../imagenes/fondo-pagina.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: repeat; }
